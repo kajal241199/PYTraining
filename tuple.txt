@@ -1,0 +1,25 @@
+1. a tuple is a sequence of python objects & represented ny paranthesis().
+2. a tuple is an immutable object means cannot be changed during run time
+3. tup1 =('physics','chemistry',1997,2000)
+4. tup2=(1,2,3,4,5)
+5. tup3="a","b","c","d"
+6.tup4=()
+7. tup=(45,)
+8. removing individual tuple is not possible
+
+BUILT IN FUNCTIONS
+1. len(tuple)
+2. max(tuple)
+3. MIN(TUPLE)
+4. tuple(seq)
+
+
+METHODS
+count(obj)
+index(obj)
+
+TUPLE IS USED TO STORE CONSTANTS,WE CANNOT UPDATE OR DELTE TUPLE ELEMENTS
+STNADARD SYNTAX TO CRAETE TUPLE:
+TUPLE = (ITEM1, ITEM2,...)
+
+if tuple has a mutable object, then we can change into that

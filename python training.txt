@@ -1,0 +1,10 @@
+loop control statement
+1: break-> to terminate current loop
+
+2: continue-> to skip the part of loop
+case 1:
+    if continue encounters in for loop then it goes to next iteration
+case 2:
+    if continue encounters in while loop,it goes to condition.
+
+3: pass> to place blank/empty block

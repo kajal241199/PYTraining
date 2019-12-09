@@ -1,0 +1,7 @@
+#operators in python
+city = " udaipur smart city"
+print( "smart" in city )
+
+books = ["android","google cloud","java","python"]
+
+name

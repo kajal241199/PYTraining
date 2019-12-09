@@ -1,0 +1,25 @@
+FUNCTIONS IN PYTHON
+
+1: a function is a block of organized,eusable code that is used to perform a particular task.
+2: functions provide better modularity for your application and a high degree of code reusability.
+
+STANDARD SYNTAX
+
+def<functionname>([parameters]):
+    "Functiondoc_string" //not compulsory
+     Function_suite
+     return[expression]
+
+THERE ARE DIFFERENT WAYS TO CALL A FUNCN IN PYTHON:
+4 WAYS:
+1: required arguments(positonal order)
+2: keyword arguments(name of parameter)
+3: default arguments( default value)
+4: variable-length arguments  
+
+VARIABLE LENGTH ARGUMENTS:
+we can paass variable no of args in funcn calling
+def<function_name>(label,*tuple):
+    'function_doc_string'
+     function suite
+     return[expression]

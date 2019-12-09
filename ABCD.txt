@@ -1,0 +1,10 @@
+# string example
+city = 'udaipur'
+txt = "Gits, udaipur \
+@2020"
+msg = '''
+
+
+I TOLD U PYTHON NAHI INSTALL HAI ISME
+U DONT NEED TO TYPE PYTHON IN CMD 
+JST TYPE FILE NAME #STRING.PY
