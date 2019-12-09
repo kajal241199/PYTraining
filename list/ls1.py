@@ -1,20 +1,19 @@
-#creating list to store mixed items
-mix = [1200, 450.9055, 'kajal@', 5j+7, 'gits@2', 435, [ 120, 'android', 35.], (12, "mahesh"), 12345]
- #iterating list
-for item in mix:
-    if type(item) in [int, float, complex]:
-        print( item ) 
-
-#creating list to store book titles
-books = []
-#adding int0 a list
-for item in range(1)
-    b = "java", "ka", "gf", "ff", "hh"
-    books.append(b)
+# creating list to store fruits quantity
+fruits = [2.5, 5, 5.6, 5.9, 1]
+print( fruits )
+# iterating list
+for item in fruits:
+  sum += item
 else:
-    print( books )
-#searching books
-bt = input("enter book titl to search:- ")
-for item in books:
-    if bt in item:
-        print( item)
+    bill = sum*60
+    print("pay bill is %0.2f rs for %d kg fruits" %(bill,sum))
+#indexing/slicing/ranging
+print( fruits[3])
+print( fruits[-2])
+print( fruits[1:4])
+print( fruits[-5:-2])
+print( fruits[2: )
+print( fruits[ :15])
+#adding new item
+fruits.append(1.5)
+print()
