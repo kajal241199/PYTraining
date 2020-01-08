@@ -1,0 +1,2 @@
+2020-01-04 10:58:51.224000	<type 'exceptions.NameError'>	name 'error' is not defined
+2020-01-04 11:01:17.049000	<type 'exceptions.TypeError'>	can't multiply sequence by non-int of type 'float'

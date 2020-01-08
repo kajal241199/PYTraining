@@ -1,0 +1,24 @@
+THE try-finaly CLAUSE
+
+.It is used to place code related to resource releasing and memory cleanup code
+.It is an optional block and executes always if an exception occrus or not.
+
+SYNAX:
+try:
+	you do your operations here;
+	due to any exception,this may be skipped.
+finally:
+	this would always be executed.
+
+1:note hat u can provide except clause(s) , or finally clause r both.you cannot use else claues as well along with a finally clause.
+
+
+RAISING AN EXCEPTION:
+1:we can raise an exception in several ways by using the raise statement.
+2:the general syntx for the raise statement:
+	
+	raise ExceptionObject
+
+USER DEFINED EXCEPTIONS:
+1:we can create a user defined/custom exceptions by deriving classes from the standard built in exceptions
+2:a class is ceated that is subclassed from runtimeerror.

@@ -19,7 +19,17 @@ THERE ARE DIFFERENT WAYS TO CALL A FUNCN IN PYTHON:
 
 VARIABLE LENGTH ARGUMENTS:
 we can paass variable no of args in funcn calling
-def<function_name>(label,*tuple):
+def<function_name>(label,*tuple):  //we use tuple over here bcoz it cannot be modified in functions
     'function_doc_string'
      function suite
      return[expression]
+
+THE ANONYMOUS FUNCTIIONS(LAMDa)
+1:these funcns are callled anonymous because they are not declared in the standard manner by using the def keyword.you can use the lamda keyword to create small anonymous functions
+2:lamda[arg1[arg2,...argn]]:expression
+
+SCOPE OF VARIABLES
+1:the scope of a variable determines the porton of the program where u can access a particular identifier.
+2:TYPES:
+1:gobal variables
+2:local variables

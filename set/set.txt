@@ -1,0 +1,13 @@
+SET:
+.A set is a collection of unique elements.
+          OR
+.there is no duplicate element
+
+SYNTAX:
+	<setname> ={item1,item2,item3,....}
+
+FUNCTIONS:
+1:add(object)
+2:remove(object)
+3:pop(object)
+4:update(object)

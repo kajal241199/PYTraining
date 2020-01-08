@@ -1,0 +1,25 @@
+DICTIONARY
+1: IT PROVIES A WAY TO STORE DATA IN FORM OF RELATNSHIP BTWN KEYS AND VALUES.
+2: it is represented by eys and values
+3:keys  must be unique but can be any type.
+4:the keys must be of an immutable data ype such as stringf,numbers,tuples but values canbe mutable object
+
+dict_nam={key:value,key:value....}
+
+
+FUNCTIONS:
+len(dict)
+str(dict)
+
+METHODS:
+dict.clear()
+dict.copy()
+dict.fromkeys()
+dict.get(key,default=none)
+dict.items()
+dict.keys()
+dict.setdefault(key,default=none)
+dict.update(dict2)
+dict.values()
+
+****key can be used to manipulate the dictionary items****

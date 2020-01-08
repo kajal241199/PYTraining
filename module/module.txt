@@ -1,0 +1,8 @@
+the dir(modulename) function:
+1: the dir() built in functon returns a sorted list of strings containing the names defined by a module
+2:the list contains the names of all the attributes such as variables and functions that are defined in a module.
+
+PACKAGES IN PYTHON
+1:A package is a heirarchical fle directory structure that defines a single python applicn env. that consists of modules and subpackages and sub-subpackages.
+2:It is used to grup or organise related modules and subpackages into a single unit.
+3:A package is a directory or a folder in context of OS.

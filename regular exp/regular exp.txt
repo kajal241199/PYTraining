@@ -1,0 +1,64 @@
+REGULAR EXPRESSION:
+1:A regular expression is a special sequence of chars that helps to match or find other strings or sets of strings , using a specialized syntax held in pattern.
+2:"re" is a predefined module to provide funcs and methods to perform pattern matching.
+
+META CHARACTERS:
+-> THEY ARE SPECIAL CHARACTERS WITH SPECIAL MEANING USED N RE FOR PATTERN MATCHING
+
+.   ^   $   *   +   ?   \   -  |  {  }  [  ]  (  )
+
+[ ]  char class
+[^ ] subtraction
+-    range
+( )  group
+{ }  occurence
+ /   or
+
+
+REGULAR EXPRESSION [abcde]ut
+matching	   but cut eut wut put
+
+REGULAR EXPRESSION [0-9][abc]ut
+matching	   0but 8cut 7eut
+
+QUantifiers:
+greedy          *       0 or more occurences
+reluctant	?	exactly 0 or 1
+possessive 	+	1 or more occurences
+
+
+BOUNDARY MATCHERS:
+^	beginning
+$	ending
+
+
+METHODS:
+
+search(patternstring,[flag =0])
+match(patternstring,[flag =0])
+findall(patternstring,[flag =0])
+sub(pattern,replace,string,count  0,[flag =0])
+compile(pattern,[flag = 0])
+
+Match versus Search
+1:Match checks for a match only at the beginning of the string ,while earch checks for a match anywhere in the string.
+
+
+REGULAR EXPRESSIONS MODIFIERS: OPTION FLAGS
+ 
+re.I
+re.L
+re.M
+re.S
+re.x
+re.U
+
+
+SPECIAL CHARS CLASSES
+.	match any char expect newline
+\d	match a digit:[0-9]
+\D	match a non digit:[0^-9]
+\s	match a whitespace char: [\t\r\n\f]
+\S	match non whitespace:[\t\r\n\f]
+\w	match a word char:[^A-Za-z0-9_]
+\W	match a non word char:[^A-Za-z0-9_]

@@ -1,5 +1,5 @@
 # prg to display employee details
-emp = []
+ = []
 
 for i in range(3):
     an = int(input("enter ac no: "))
@@ -7,6 +7,11 @@ for i in range(3):
     ab = float(input("enter ac bal: "))
     #adding into a new list
     emp = [an, ahn, ab]
+    #appending into act
+    act.append(info)
 else:
-    for item in range(3):
-        print( emp )
+    print( act)
+bal = float(raw_input("enter account balance: "))
+for item in act:
+    if item[2] >= bal:
+        print( item )

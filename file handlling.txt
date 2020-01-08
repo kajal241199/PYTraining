@@ -1,0 +1,80 @@
+FILE HANDLING
+*python provides funcns and methods to perform file operations such as creating, reading, writing to a 
+file etc.
+**OPENING A FILE
+fileobject = open(file_name[,access_model][,buffering])
+default access mode is read
+
+FILE ACCESS METHODS:
+r	reading(default mode)
+rb	read binary
+r+	read and write
+rb+	read and write binary
+w	write
+wb	write binary
+w+	read and write
+wb+	read and write binary
+a	append mode
+ab	append binary
+a+	read and append
+ab+	read and append binary
+
+FILE OBJECT ATTRIBUTES
+file.closed
+fle.mode
+file.name
+file.softspace
+
+FILE METHODS
+close()
+flush()
+fileno()
+next()
+read([size])
+readline([size])
+readlines({sizehint])
+isatty()
+truncate([size])
+write(str)
+writelines(sequence)
+tell()
+
+seek(offset[,whence])
+Whence O-start1-current2-end
+
+***JSON(JAVA SCRIPT OBJECT)****
+IT IS A FORMAT FOR STORING AND EXCHANGING DATA BRWN ANY 2 RESOURCES
+there are two elements :
+1:JSON array	[]
+2:JSON object	{}------->{key:value,key:value,.....}
+
+
+
+*****string can only b represented by""(double codes).
+*****keys are only used as strings.
+*****we can store data in JSON file in any combination of these 2 elements.
+
+
+python<------------loading-------json file
+python---------dumping-------->json file
+list------------json array(compatible form)
+dictionary------json object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

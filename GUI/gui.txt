@@ -1,0 +1,7 @@
+GRAPHICAL USER INTERFACE IN PYTHON
+.tkinter is a built-in library to provide graphical user controls such as txt fields,combo box,button, msg box,radio buttons etc.
+
+
+import Tkinter as tk
+from Tkinter import messagebox
+from Tkinter import ttk

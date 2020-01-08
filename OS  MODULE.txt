@@ -1,0 +1,13 @@
+OS MODULE
+
+1:os.rename(current_file_name,new_file_name)
+2: os.remove(file-name)
+3:os.mkdir("newdir")
+4:os.chdir("newdir")
+5:os.getcwd()
+6:os.rmdir('dirname')
+7:os.stat("filename")
+8:os,access(path,mode)
+9:os.listdir(path)
+10:os.removedirs(path)
+11:os.walk(path)

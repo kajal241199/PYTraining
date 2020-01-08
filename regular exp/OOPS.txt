@@ -1,0 +1,77 @@
+OVERVIEW OF OOP TERMINOLOGY
+
+
+1:CLASS->
+.IT IS TO REPRESENT ANY LOGCAL OR PHYSICAL ENTITY WITH SOME CHARACHTERISTICS AND BEHAVIOUR.
+.To describe an entity with variables{attributes and methods}operations.
+.Class is a template/lauout/architecture/blueprint/frameworkto describe an object.
+
+2:OBJECT->
+.An object is an instance of class with actual attributes/charecteristics..
+.Instance is also known as object.
+
+-A python class can contain 
+.instance/object variables
+.static/class variables
+.intsance/object methods
+.static methods
+.class methods
+.special methods:
+	1:__init__()
+	2:__del__()
+	3:__str__()
+
+CLASS DECLARATION:
+SYNTAX: class <classname>:
+	      'class_doc_string'
+	      #class members
+	
+..Instance/object methods:
+.Methods,they are used to manipulate instance variables.
+
+SYNTAX:
+def <methodname>(self[arf1,arg2,...]):
+    'method_doc_string'
+    #method body
+
+CREATING OBJECT:
+SYNTAX:
+<objectname> = classsname([parameters])
+
+*__init__()
+SYNTAX:
+def __init__(self[arg1,arg2,...]):
+     'method_doc__string'
+     #initialization
+
+VARIABLES:
+They are used to store common values to share among all instances.
+
+******PRIORITY IS ALWAYS GIVEN TO LATEST INIT************
+
+STATIC METHOD:to manipulate the static variables
+
+
+.it is a special method to represent an object
+.It is a special method to initialise instance variables at the time of object creation.	
+.It invokes automatically when we creates an instance.
+.It returns an object because it is a way to create an object.
+
+
+BUILT IN FUNCTIONS:
+getattr(obj, name,[default])
+hasattr(obj,name)
+setattr(obj, name, value)
+delattr(obj, name)
+
+....__str__()....
+->function to represent an object
+
+
+LIST OF OBJECTS:
+we can create a list to store multiple objects
+to define new behaviour or additional meaning/operation of an operator
+IN OTHER WORDS to define additional functionality for an operator
+.It is a special method to initialise instance variables at the time of object creation.	
+.It invokes automatically when we creates an instance.
+.It returns an object because it is a way to create an object.

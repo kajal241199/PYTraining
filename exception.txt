@@ -1,0 +1,49 @@
+EXCEPTION:
+an excepton is an event/prob/interupt/error which occurs durng the execution of a prg that disrupts normal flow of the program.
+
+
+STANDARD EXCEPTION CLASSES:
+Exception,StopIteration,SystemExit,
+StandadError,ArithmeticError,OverflowError,FloatingPointError,ZerodivisionError,AssertionError,
+AttributeError,EOfError,ImportError,
+KeyboardInterupt,LookUpError,KeyError,NameError,
+UnboundLocalError,
+EnvironmentError,
+IOError,OSError,
+SyntaxError,IndentationError,SystemError,TypeError,ValueError,RuntimeError,NotImplementedError
+
+HANDLING AN EXCEPTION:
+1:It is to prevent a prg from being terminated.
+2:Exception can be handled by ->  try   except   clause
+SYNTAX:
+try:             (IF EXCEPTION OCCURS THEN IT WILL EXECUTE EXCEPT PART ,OTHERWISE IT WILL EXECUTES ELSE PART)
+--st1
+-st2
+--st3
+except[ExceptionType ex1,....]:
+--st1	---------->
+--st2   ---------->     (ACTION CODE)7
+--st3	---------->
+else:		(OPTIONAL)
+--st1	---------->
+--st2  ----------->EXECUTES IF TRY DOESNOT RAISE AN ERROR
+--st3	---------->
+
+
+
+
+MULTIPLE EXCEPTION HANDLINGS:
+
+SYNTAX:
+try:
+--st1
+--st2
+except Exception as ex1:(if ex occurs)
+	action code
+except Exception as ex2:(not handled)
+	action code 2
+	|
+	|
+except Exception as ex:(not handled)
+	action  code
+staement-x(if ex doe not occurs)

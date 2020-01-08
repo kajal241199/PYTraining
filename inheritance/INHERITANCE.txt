@@ -1,0 +1,3 @@
+METHOD OVERRIDING:
+1:Redeifitionn of base class method into the derived class with same signature(name,parameters) to hide the base class method.
+2:Always derived class method will be considered. 

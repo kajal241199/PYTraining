@@ -1,3 +1,4 @@
+score = 70
 ACT_INFO = [12001, "kajal", 12500.50]
 #creating fun to calc cot and maintainence
 def cost_main(size):
@@ -24,9 +25,16 @@ def deposit(ls, amt):
     'to deposit to account'
     ls[2] += amt
     print("curent balance : %0.2f rs" %ls[2])
+
+def updatescore(value):
+    'to update score value'
+    global score
+    score += value
+    print("score is  : %d " %score)
     
 
 #callling functions
 cost_main(1200)
+updatescore(20)
 withdrawal(ACT_INFO, 500)
 deposit(ACT_INFO, 500)

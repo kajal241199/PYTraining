@@ -1,0 +1,31 @@
+# STRING IN PYTHON
+
+1: String is a collection of charachters and enclosed either by single or double or triple(ingle/double) qoues.
+2:It is an immutable object means can not be changed size during runtime
+
+STRING SPECIAL OPERATORS:
+
++ 	concatenation
+* 	repetetion
+[] 	slice/indexng
+[:] 	range
+in 	membership
+not 	membership
+r/R 	raw string
+% 	format
+
+STRING METHODS:
+len(str)
+str.index(obj)
+str.isalnum()
+str.isalpha()
+str.isdigit()
+str.snumerical()
+str.replace()
+str.islower()
+str.isupper()
+str.isspace()
+str.capitalize()
+str.swapcase()
+str.count(str)
+str.split() #important
