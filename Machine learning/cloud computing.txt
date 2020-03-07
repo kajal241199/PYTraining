@@ -1,0 +1,101 @@
+CLOUD COMPUTING:
+
+by default created tendency comes under shared instance:
+TYPES OF INSTANCES:
+1:spot I
+2:reserved I
+3:shared/on demand I
+4:dedeicated I
+
+HYPERVIZER:creates an virtual environment on hardware.
+types of hypervizer:-
+1:barematter H
+2:hosted H
+
+
+FULL FORM OF EC2/ECC:(ELASTIC COMPUTE CLOUD)
+
+.by defalut SSD get 100 iops(input output operations per second)
+
+storage of hard disk:
+stores on discs(sectors)
+1sector=512bytes
+
+2 types of storage:
+1:object storage(unstructured storage)
+2:block storage(structured storage)
+
+types of memory
+1:primary memory
+2:secondary memory
+
+.SSD IS FASTEST BCOZ IT IS DIRECTLY CONNECTED TO MOTHERBOARD.
+.MAGNETIC IS A HARDDRIVE.
+
+
+SSH:-SECURE SHELL
+shell:interacts the app with the kernel in binary format.
+
+.by default kernel ha BASH shell.
+
+INTERVIEW QUESTION
+Q:WHY WE HAVE C,D AND E DRIVE IN SYSYEMS AND NOT A AND B?
+ANS:-A and B are used for floppy disks  and drive.
+
+***COMMANDS:-
+1:sudo -i COMMAND (TO GO TO THE ROOT USER)
+2:whoiam:-to chek whether which user is in root.
+2:pwd:=present working directory
+4:fdisk -l:=shows how many harddisks are attached in your instance.
+5: cd :- change directory
+6: ls :- list to view content
+7: bin :- all user related coommands
+8: boot :- 
+9: dev ;- harddrive(devices)
+10: etc ;- configuration file are in /etc (code for command)
+11: home ;- 
+12touch :- to make a file
+13:-i:- import  
+14:history:- to check the previous commands.
+15:APACHE INSTALLATION---yum install httpd*:-by using star(*) all its dependencies will also be installed.
+16:hyphen(-) k sath home directory bhi change ho jati h
+
+
+RDP:REMOTE DESKTOP PORTAL
+
+2 TYPES OFFILE SYSTEM:
+1:MBR(master boot record)
+2:GPT(GUI Partition Table)
+
+Primary Partition: Where we can install OS in system
+
+Logical Partition : extended partition me aur partition
+
+https port no:-443
+
+
+http port no:-80
+
+RPM:-resource package manager(manage packages)
+**linux's command line editor:-vi
+
+TLS:-transport layer security
+ELB:-ELASTIC LOAD BALANCER
+
+**TYPES OF LOAD BALANCER:
+1:Application LB
+2:Classic LB
+3:Network LB
+
+
+************
+H.T(healthy threshold)->3
+U.T(unhealthy threshold)->3
+timeout->10sec
+interval->10sec
+
+INTERVIEW QUESTION:
+If i will change the value of H.T to any othr value than 3,then U.T will also becomes the same(value)?
+ANS:
+yess,bcoz same no of times it will check for unhealthy threshold.
+

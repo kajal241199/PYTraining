@@ -1,0 +1,80 @@
+DAY1:
+branches of ml:
+1:supervised ml
+2:non supervised ml
+3:reinforcement ml
+
+
+standard ML IDE:
+pycharm, spyder,jupyter
+
+
+to use colab:
+!cal
+! cat /etc/issue
+
+PREPROCESSING LIBRARIES:
+.Numpy is a way to cretae multidimensional array
+.theano,scipy
+
+
+DATA VISULAIZATION:
+2 TECHNIQUES:
+1:if programer-------code
+2:if not a programer---tool
+3:data intelligence tools:
+	splunk, Tablue, sas, 
+programming platforms: grapha, r, python,scala
+libraries for DV:
+matplotlib,seabon,gplot,plotly
+
+
+DAY2:
+COMPUTER VISION:
+RGB/BGR
+range of colours: (0-255)
+[0,0,0]=BLACK
+[255,255,255]=WHITE
+
+******PYTORCH THE MOST POWERFUL LIBRARY******
+CAN READ IMAGES USING OPENCV,piL,SKIMAGE(METHODS OF PYTHON)
+
+ORDER: OPENCV,piL,PYTORCH
+
+***pwd in linus shows our location
+excluding windows all other OS uses slash to store their data
+
+
+DAY 3:
+OPENCV--OBJECT DETECTION
+image,cameraa,url,video(human face,)
+
+COMPANIES WITH MXM DATA:
+KAGGLE COMPANY(contains maximum data)
+UCI(UNIVERSITY OF CALIFORNIA)
+AMAZON
+STANFORD(natural language processing(NLP),natural language generation(NLG)(branch))
+
+
+DAY4:
+FACE RECOGNITION
+.First identify human body ,then face (eye,smile)
+github----pencv----human--data
+python based framework for detecting human face:
+OPENCV(.xml),YOLO(.weight),PYTORCH,KERAS,TENSORFLOW(data must be in json,csv,YAML)
+
+
+TOP HIGHEST PAID TOOLS
+1:splunk
+2:vormetric(128GB)
+
+text processing
+python----nltk(NATURAL LANGUAGE TOOLKIT),textblob,spacy
+
+
+
+
+*******************************
+
+
+
